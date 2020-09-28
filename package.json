@@ -1,0 +1,28 @@
+{
+  "name": "test_git",
+  "version": "1.0.0",
+  "description": "练习用的",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "cz-conventional-changelog": "^3.3.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yeungxsheng/TEST_Git.git"
+  },
+  "author": "eleven",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yeungxsheng/TEST_Git/issues"
+  },
+  "homepage": "https://github.com/yeungxsheng/TEST_Git#readme",
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
